@@ -37,7 +37,7 @@ const Skills = () => {
       borderColor: 'border-blue-500/30',
       bgColor: 'bg-blue-500/10',
       skills: [
-        'React, Vue.js',
+        'Html, css, Js, React, TailwindCSS',
         'Node.js, Python, PHP',
         'Bases de données (SQL)',
         'CI/CD & Git'
