@@ -75,7 +75,7 @@ const Contact = () => {
             {/* Formulaire de contact */}
             <div className="bg-gradient-to-br from-slate-800/50 to-slate-700/50 p-8 rounded-2xl border border-cyan-500/20 backdrop-blur-sm">
               {state.succeeded ? (
-                <p className="text-green-400 text-xl font-semibold text-center">Merci pour votre message !</p>
+                <p className="text-green-400 text-xl font-semibold text-center">Merci pour votre message ! Contacter moi sur WhatsApp</p>
               ) : (
                 <form onSubmit={handleSubmit} className="space-y-6">
                   <div className="grid md:grid-cols-2 gap-6">
