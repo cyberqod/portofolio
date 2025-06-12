@@ -33,7 +33,7 @@ const Navigation = () => {
           {/* Logo */}
           <div className="text-xl font-bold text-white">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-400">
-              AD
+              KEMELA E. Léonardo
             </span>
           </div>
 
