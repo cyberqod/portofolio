@@ -65,7 +65,7 @@ const Contact = () => {
                   <a href="#" className="w-12 h-12 bg-slate-800 hover:bg-blue-600 rounded-lg flex items-center justify-center transition-all duration-300 hover:scale-110">
                     <Linkedin className="w-6 h-6 text-gray-400 hover:text-white" />
                   </a>
-                  <a href="#" className="w-12 h-12 bg-slate-800 hover:bg-gray-700 rounded-lg flex items-center justify-center transition-all duration-300 hover:scale-110">
+                  <a href="https://github.com/cyberqod" className="w-12 h-12 bg-slate-800 hover:bg-gray-700 rounded-lg flex items-center justify-center transition-all duration-300 hover:scale-110">
                     <Github className="w-6 h-6 text-gray-400 hover:text-white" />
                   </a>
                 </div>
