@@ -4,6 +4,106 @@ import { Briefcase, Calendar, MapPin, ExternalLink, Shield, Network, Code } from
 
 const Experience = () => {
   const experiences = [
+    {
+      title: "Informaticien",
+      company: "Hôtel La Douceur",
+      period: "Octobre 2025",
+      type: "Mission",
+      category: "systems",
+      description: "Support informatique et gestion du système hôtelier.",
+      achievements: [
+        "Installation et configuration du logiciel HotelManager en local",
+        "Assistance du personnel dans l'utilisation du logiciel",
+        "Résolution des problèmes liés aux équipements réseau",
+        "Maintenance préventive et optimisation des performances du parc informatique",
+        "Support technique général"
+      ],
+      technologies: ["HotelManager", "Réseau", "Windows", "Support IT"]
+    },
+    {
+      title: "Développeur Web PHP",
+      company: "CREATIVE WEB",
+      period: "Juillet 2025",
+      type: "CDI",
+      category: "development",
+      description: "Développement et amélioration de sites web dynamiques.",
+      achievements: [
+        "Dynamisation de sites web existants (PHP, HTML, CSS)",
+        "Ajout et amélioration de fonctionnalités web sur mesure",
+        "Collaboration avec le chef de projet pour répondre aux besoins techniques",
+        "Maintenance et optimisation du code pour performance, sécurité et évolutivité"
+      ],
+      technologies: ["PHP", "HTML", "CSS", "MySQL", "JavaScript"]
+    },            
+        {
+      title: "Développeur Web PHP",
+      company: "CREATIVE WEB",
+      period: "Octobre – Décembre 2024",
+      type: "Stage",
+      category: "development",
+      description: "Stage de développement web et utilisation du framework interne.",
+      achievements: [
+        "Dynamisation et amélioration de sites web",
+        "Utilisation du framework interne de l'entreprise"
+      ],
+      technologies: ["PHP", "HTML", "CSS", "Framework interne"]
+    },
+    {
+      title: "Technicien Réseau",
+      company: "SECURITE 360°",
+      period: "Mai 2024",
+      type: "Stage",
+      category: "systems",
+      description: "Stage technique en infrastructure réseau.",
+      achievements: [
+        "Réalisation du câblage réseau complet pour l'agence COECEPT à Kara"
+      ],
+      technologies: ["Câblage RJ45", "Infrastructure réseau", "Switch", "Routeur"]
+    },
+    {
+      title: "Sécurité Informatique",
+      company: "ASECNA Togo",
+      period: "Octobre – Décembre 2023",
+      type: "Stage",
+      category: "cybersecurity",
+      description: "Stage en cybersécurité et maintenance réseau.",
+      achievements: [
+        "Évaluation de vulnérabilités",
+        "Simulation d'un outil de surveillance réseau (Suricata)",
+        "Compilation d'informations et rédaction de rapports",
+        "Maintenance préventive des équipements réseau",
+        "Support technique"
+      ],
+      technologies: ["Suricata", "Audit de vulnérabilités", "Réseau", "Rapports"]
+    },
+    {
+      title: "Technicien Systèmes & Réseaux",
+      company: "SECURITE 360°",
+      period: "Août – Octobre 2023",
+      type: "Stage",
+      category: "systems",
+      description: "Stage en infrastructure réseau pour GIZ Togo.",
+      achievements: [
+        "Participation à la mise en place du réseau informatique de GIZ Togo",
+        "Maintenance du réseau informatique des agences COECEPT Togo",
+        "Rédaction de rapports"
+      ],
+      technologies: ["Câblage", "Configuration réseau", "Maintenance", "Documentation"]
+    },
+    {
+      title: "Administration Système",
+      company: "Université de Kara",
+      period: "Octobre – Décembre 2021",
+      type: "Stage",
+      category: "systems",
+      description: "Stage en administration système et déploiement de services.",
+      achievements: [
+        "Installation et configuration des services DNS, DHCP, FTP, LDAP, SAMBA",
+        "Déploiement du service ADDS à la présidence de l'Université de Kara"
+      ],
+      technologies: ["DNS", "DHCP", "FTP", "LDAP", "SAMBA", "Active Directory"]
+    }
+  ];
     // {
     //   title: "Expert en Cybersécurité Senior",
     //   company: "SecureTech Solutions",
@@ -68,7 +168,7 @@ const Experience = () => {
     //   ],
     //   technologies: ["Windows Server", "VMware", "Cisco", "Active Directory", "Office 365"]
     // }
-  ];
+  //  ]
 
   const getCategoryIcon = (category: string) => {
     switch (category) {
@@ -133,13 +233,9 @@ const Experience = () => {
                         </span>
                       </div>
                       <div className="mt-2 md:mt-0">
-                        <div className="flex items-center gap-2 text-gray-400 text-sm mb-1">
+                        <div className="flex items-center gap-2 text-gray-400 text-sm">
                           <Calendar className="w-4 h-4" />
                           {exp.period}
-                        </div>
-                        <div className="flex items-center gap-2 text-gray-400 text-sm">
-                          <MapPin className="w-4 h-4" />
-                          {exp.location}
                         </div>
                       </div>
                     </div>
